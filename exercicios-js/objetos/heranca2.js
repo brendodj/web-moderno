@@ -34,8 +34,8 @@ const volvo = {
     }
 }
 
-Object.setPrototypeOf(ferrari, carro)
-Object.setPrototypeOf(volvo, carro)
+Object.setPrototypeOf(ferrari, carro) // Relação de herança
+Object.setPrototypeOf(volvo, carro)  // Relação de herança
 
 console.log(ferrari)
 console.log(volvo)
