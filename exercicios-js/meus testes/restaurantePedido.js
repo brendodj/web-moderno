@@ -5,16 +5,10 @@
 // mostrar opções
 function cardapio(){
     console.log(`    OPÇÕES DE CARNE    `)
-    for(i = 0; i < carnes.length; i++){
-    console.log(`${carnes[i]}`)
+    carnes.forEach((carne, i) => console.log(carne,i))
 
-    }
     console.log(`    ACOMPANHAMESTOS    `)
-    
-    for(i = 0; i < acompanhamentos.length; i++){
-    console.log(`${acompanhamentos[i]}`)
-
-    }
+    acompanhamentos.forEach((acomp, j) => console.log(acomp, j))
 }
 
 // Escolher Opções
@@ -36,3 +30,4 @@ function pegaPedido(){
 
 cardapio()
 pegaPedido()
+
