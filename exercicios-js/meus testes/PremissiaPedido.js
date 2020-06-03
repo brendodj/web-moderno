@@ -8,4 +8,4 @@ const total = Picanha + Medalhao + Contra + Linguica + entrega
     console.log(total)
 }
 
-valorPedido(60, 70, 70, 25)
+valorPedido(0, 40, 60, 0)

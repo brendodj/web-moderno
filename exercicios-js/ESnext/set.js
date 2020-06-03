@@ -13,3 +13,5 @@ console.log(times.has('flamengo'))
 const nomes = ['brendo', 'felipe', 'thawa', 'brendo']
 const nomesSet = new Set(nomes)
 console.log(nomesSet)
+
+
